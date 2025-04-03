@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.mp12 { background-color: lightskyblue; }
+.mp04 { background-color: lightgreen; }
+.mp08 { background-color: lightblue; }
+.mp06 { background-color: lightpink; }
+.mp07 { background-color: lightcyan; }
+.mp10 { background-color: lightsalmon; }
+.tutoria { background-color: plum; }
+.descans { background-color: #f0f0f0; font-weight: bold; }
