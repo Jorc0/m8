@@ -3,63 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horari </title>
-    <link rel="stylesheet" href="style-taula.css">
+    <!-- <meta http-equiv="refresh" content="1"> -->
+    <title>Horari</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="horari.html">Horari</a></li>
+            <li><a href="taula.html">Taula</a></li>
+        </ul>
+    </nav>
     <table border="1">
         <tr>
             <th rowspan="2"></th>
-            <th colspan="5">Horari </th>
+        </tr>
+        <tr class="dies">
+            <th>DILLUNS</th>
+            <th>DIMARTS</th>
+            <th>DIMECRES</th>
+            <th>DIJOUS</th>
+            <th>DIVENDRES</th>
         </tr>
         <tr>
-            <th>Dilluns</th>
-            <th>Dimarts</th>
-            <th>Dimecres</th>
-            <th>Dijous</th>
-            <th>Divendres</th>
-        </tr>
-        <tr>
-            <td>15:00 - 16:00</td>
-            <td class="mp12" rowspan="2">MP12 Síntesi<br>Jesús Ferré<br>Aula 20.2<br>SMX 2n A</td>
-            <td class="mp04" rowspan="2">MP04 Sistemes operatius<br>Jesús Ferré<br>Aula 20.2<br>SMX 2n A</td>
+            <td class="hores">15:00 - 16:00</td>
+            <td class="mp12" rowspan="2"><button class="btn-mp12">MP12 Síntesi<br><strong>Jesús Ferré</strong><br>Aula 20.2<br>SMX 2n A</button></td>
+            <td class="mp04" rowspan="2"><button class="btn-mp04">MP04 Sistemes operatius<br><strong>Jesús Ferré</strong><br>Aula 20.2<br>SMX 2n A</button></td>
             <td></td>
-            <td class="mp08" rowspan="2">MP08 Aplicacions web<br>Joan Hierro<br>Aula 20.2<br>SMX 2n A</td>
-            <td class="mp06" rowspan="3">MP06 Seguretat<br>José Ramón<br>Aula 20.2<br>SMX 2n A</td>
+            <td class="mp08" rowspan="2"><button class="btn-mp08">MP08 Aplicacions web<br><strong>Joan Hierro</strong><br>Aula 20.2<br>SMX 2n A</button></td>
+            <td class="mp06" rowspan="3"><button class="btn-mp06">MP06 Seguretat<br><strong>José Ramón</strong><br>Aula 20.2<br>SMX 2n A</button></td>
         </tr>
         <tr>
-            <td>16:00 - 17:00</td>
-            <td class="mp04">MP04 Sistemes operatius<br>Jesús Ferré<br>Aula 20.2<br>SMX 2n A</td>
+            <td class="hores">16:00 - 17:00</td>
+            <td class="mp04"><button class="btn-mp04">MP04 Sistemes operatius<br><strong>Jesús Ferré</strong><br>Aula 20.2<br>SMX 2n A</button></td>
         </tr>
         <tr>
-            <td>17:00 - 18:00</td>
-            <td class="mp07">MP07 Serveis de xarxa<br>Gonçal Verge<br>Aula 20.2<br>SMX 2n A</td>
-            <td class="tutoria">Tutoria 2n SMX A<br>José Ramón<br>Aula 20.2<br>SMX 2n A</td>
-            <td class="mp10">MP10 Empresa<br>Carlos Querol<br>Aula 20.2<br>SMX 2n A</td>
-            <td class="mp12">MP12 Síntesi<br>Joan Hierro<br>Aula 20.2<br>SMX 2n A</td>
+            <td class="hores">17:00 - 18:00</td>
+            <td class="mp07"><button class="btn-mp07">MP07 Serveis de xarxa<br><strong>Gonçal Verge</strong><br>Aula 20.2<br>SMX 2n A</button></td>
+            <td class="tutoria"><button class="btn-tutoria">Tutoria 2n SMX A<br><strong>José Ramón</strong><br>Aula 20.2<br>SMX 2n A</button></td>
+            <td class="mp10"><button class="btn-mp10">MP10 Empresa<br><strong>Carlos Querol</strong><br>Aula 20.2<br>SMX 2n A</button></td>
+            <td class="mp12"><button class="btn-mp12">MP12 Síntesi<br><strong>Joan Hierro</strong><br>Aula 20.2<br>SMX 2n A</button></td>
         </tr>
         <tr>
-            <td>18:00 - 18:30</td>
-            <td colspan="5" class="descans">DESCANS</td>
+            <td class="hores">18:00 - 18:30</td>
+            <td colspan="5" class="hores">DESCANS</td>
         </tr>
         <tr>
-            <td>18:30 - 19:30</td>
-            <td class="mp07">MP07 Serveis de xarxa<br>Gonçal Verge<br>Aula 20.2<br>SMX 2n A</td>
-            <td class="mp12" rowspan="2">MP12 Síntesi<br>José Ramón<br>Aula 20.2<br>SMX 2n A</td>
-            <td class="mp10">MP10 Empresa<br>Carlos Querol<br>Aula 20.2<br>SMX 2n A</td>
-            <td class="mp12" rowspan="2">MP12 Síntesi<br>Joan Hierro<br>Aula 20.2<br>SMX 2n A</td>
-            <td class="mp07" rowspan="2">MP07 Serveis de xarxa<br>Gonçal Verge<br>Aula 20.2<br>SMX 2n A</td>
+            <td class="hores">18:30 - 19:30</td>
+            <td class="mp07"><button class="btn-mp07">MP07 Serveis de xarxa<br><strong>Gonçal Verge</strong><br>Aula 20.2<br>SMX 2n A</button></td>
+            <td class="mp12" rowspan="2"><button class="btn-mp12">MP12 Síntesi<br><strong>José Ramón</strong><br>Aula 20.2<br>SMX 2n A</button></td>
+            <td class="mp10"><button class="btn-mp10">MP10 Empresa<br><strong>Carlos Querol</strong><br>Aula 20.2<br>SMX 2n A</button></td>
+            <td class="mp12" rowspan="2"><button class="btn-mp12">MP12 Síntesi<br><strong>Joan Hierro</strong><br>Aula 20.2<br>SMX 2n A</button></td>
+            <td class="mp07" rowspan="2"><button class="btn-mp07">MP07 Serveis de xarxa<br><strong>Gonçal Verge</strong><br>Aula 20.2<br>SMX 2n A</button></td>
         </tr>
         <tr>
-            <td>19:30 - 20:30</td>
-            <td class="mp04">MP04 Sistemes operatius<br>Jesús Ferré<br>Aula 20.2<br>SMX 2n A</td>
-            <td class="mp12">MP12 Síntesi<br>José Ramón<br>Aula 20.2<br>SMX 2n A</td>
+            <td class="hores">19:30 - 20:30</td>
+            <td class="mp04"><button class="btn-mp04">MP04 Sistemes operatius<br><strong>Jesús Ferré</strong><br>Aula 20.2<br>SMX 2n A</button></td>
+            <td class="mp12"><button class="btn-mp12">MP12 Síntesi<br><strong>José Ramón</strong><br>Aula 20.2<br>SMX 2n A</button></td>
         </tr>
         <tr>
-            <td>20:30 - 21:30</td>
+            <td class="hores">20:30 - 21:30</td>
             <td></td>
             <td></td>
-            <td class="mp12">MP12 Síntesi<br>Carlos Querol<br>Aula 20.2<br>SMX 2n A</td>
+            <td class="mp12"><button class="btn-mp12">MP12 Síntesi<br><strong>Carlos Querol</strong><br>Aula 20.2<br>SMX 2n A</button></td>
             <td></td>
             <td></td>
         </tr>

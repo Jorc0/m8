@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.menu {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none; /* si no especifiquem el text-decoration, el text es mostra subratllat */
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    
+}
+
+/* poso els bordes en negreta i 3px per millor visibilitat */
+th, td {
+    border: 3px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cv-section {
+    line-height: 1.6;
+}
+
+.cv-section h3 {
+    color: #444;
+    margin-top: 20px;
+}
+.dies th  {
+    text-align: center;
+}
+.hores {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+/* centro els dies de la setmana */ 
+
+.horari {
+    text-align: center;
+}
+.mp12 { background-color: #94CEF3; text-align: center; }
+.mp04 { background-color: #9EDEB2; text-align: center; }
+.mp08 { background-color: #BCDAB5; text-align: center; }
+.mp06 { background-color: #DA98F6; text-align: center; }
+.mp07 { background-color: #8CBCDF; text-align: center; }
+.mp10 { background-color: #DD8F85; text-align: center; }
+.tutoria { background-color: #B078F9; text-align: center; }
+/* .descans { background-color: #333; font-weight: bold; text-align: center; } */
+
+.horari-section {
+    overflow-x: auto;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    /* https://developer.mozilla.org/ca/docs/Web/CSS/transition */
+}
+
+button:hover {
+    /* https://developer.mozilla.org/es/docs/Web/CSS/:hover */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    /* https://developer.mozilla.org/es/docs/Web/CSS/box-shadow */
+}
+
+.btn-mp12 {
+    background-color: #94CEF3;
+}
+
+.btn-mp04 {
+    background-color: #9EDEB2;
+}
+
+.btn-mp08 {
+    background-color: #BCDAB5;
+}
+
+.btn-mp06 {
+    background-color: #DA98F6;
+}
+
+.btn-mp07 {
+    background-color: #8CBCDF;
+}
+
+.btn-mp10 {
+    background-color: #DD8F85;
+}
+
+.btn-tutoria {
+    background-color: #B078F9;
+}
