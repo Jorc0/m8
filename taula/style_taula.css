@@ -74,21 +74,6 @@ table {
     
 }
 
-/* poso els bordes en negreta i 3px per millor visibilitat */
-th, td {
-    border: 3px solid #000000;
-    padding: 8px;
-    text-align: left;
-}
-th {
-    background-color: #333;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
 button {
     width: 100%;
     height: 100%;
